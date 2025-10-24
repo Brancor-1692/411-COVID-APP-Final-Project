@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!--
+Alexander Platon , ADD NAMES!!!
+Test 123
+IST 411 Final Project
+-->
+<html>
+    <head>
+        <title>COVID-19 Statistics Application</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>COVID-19 Statistics</h1>
+        <div id="stats-container">
+            <p>Specify all DATA by State: 
+                <select id="state-select">
+                    <option value="">-- Select a state --</option>
+                    <option value="state1">Pennsylvania</option>
+                    <option value="state2">New Jersey</option>
+                    <option value="state3">Ohio</option>
+                    <!-- Add All 50 States!! -->
+                </select>
+            </p>
+            <p>Number of Cases of COVID: <span id="total-cases"></span></p>
+            <p>Number of Deaths from COVID: <span id="total-deaths"></span></p>
+            <p>Number of Tests for COVID: <span id="total-tests"></span></p>
+            <p>Number of COVID Vaccinations: <span id="total-vaccinations"></span></p>
+            <button>Filter Data</button>
+            <h2>Top 10 List</h2>
+            <ul id="top-10-list">
+            <!-- List of top 10 data based on selected filter will be dynamically added here -->
+            </ul>
+        </div>       
+    </body>
+</html>
